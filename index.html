@@ -1,0 +1,64 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>Google</title>
+	<link rel="stylesheet" href="normalize.css" />
+	<link rel="stylesheet" href="bootstrap.min.css" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="row">
+	<div class="col-sm-12">
+		<ul>
+			<li><a href="#">+You</a></li>
+			<li><a href="#">Gmail</a></li>
+			<li><a href="#">Images</a></li>
+			<li><a href="#"><canvas id="myCanvas" width="35" height="35"></canvas></a></li>
+				<script>
+				  var canvas = document.getElementById('myCanvas');
+				  var context = canvas.getContext('2d');
+			
+				  context.beginPath();
+				  for (i=0; i<3; i++) {
+					for (j= 0; j<3; j++) {
+					
+				  context.rect(j*8,i*8, 5, 5);
+				  context.fillStyle = 'grey';
+				  context.fill();
+				  }
+				  }
+				</script>
+			<li class="blue">Sign In</li>
+		</ul>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+		<img src="http://www.seomofo.com/downloads/new-google-logo-official.png" alt="Google logo" />
+		<form>
+			<input type="text" name="searchfield"><br />
+			<input class="btn1" type="submit" name="googlesearch" value="Google Search">
+			<input class="btn2" type="submit" name="lucky" value="I'm Feeling Lucky">
+		</form>
+	</div >
+</div >
+
+<div class="row" id="bottom">
+	<div class="col-md-6" >
+		<ul class="lb">
+			<li><a href="#">Advertising</a></li>
+			<li><a href="#">Business</a></li>
+			<li><a href="#">About</a></li>
+		</ul>
+	</div>
+	<div class="col-md-6 rb">
+		<ul >
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Terms</a></li>
+			<li><a href="#">Settings</a></li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>

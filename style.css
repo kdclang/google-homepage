@@ -1,0 +1,75 @@
+img {
+	display: block;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: 200px;
+	width: 488px;
+	height:205px;
+
+}
+form {
+	width: 488px;
+	display: block;
+	margin:auto;
+}
+input {
+	width: 100%;
+	font-weight: bold;
+}
+input.btn1 {
+	width: 25%;
+	height: 2em;
+	margin: 15px 0 0 25%;
+	font-size: .8em;
+	display: inline;
+}
+input.btn2 {
+	width: 25%;
+	height: 2em;
+	margin-left: 25px;
+	font-size: .8em;
+	display: inline;
+}
+ul {
+	float: right;
+	margin-right: 30px;
+	color: #555555;
+}
+li {
+	display: inline;
+	margin-left: 15px;
+	font-size: .9em;
+}
+li.blue {
+	background-color: #0066ff;
+	color: white;
+	font-weight: bold;
+	width: 75px;
+	text-align: center;
+	padding: 8px 12px;
+}
+#myCanvas {
+	margin-bottom: -20px;
+}
+#bottom {
+	position: fixed;
+	bottom: 10px;
+	left: 0;
+	width: 100%;
+}
+.lb {
+	float: left;
+	margin-left: -20px
+}
+.rb {
+	position: relative:
+	right: 50px;
+}
+a, a:active, a:hover, a:visited {
+	text-decoration: none;
+	color: #555555;
+}
+
+	margin: 0;
+	
+}
